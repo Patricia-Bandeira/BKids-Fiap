@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <!-- importando google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+    <!-- importando cdn fonts awesome / icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- importando bootstrap cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <!-- importando css local -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>BKids</title>
+    
+    <!-- Favicon / visualização pelo navegador-->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+
+</head>
+<body>
+
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+
+        <div class="row arredondado p-3 shadow login-area">
+
+            <!--esquerda-->
+            <div class="col-md-6 arredondado2 d-flex justify-content-center align-items-center flex-column esquerda" style="background: #010717;">
+                <div class="featured-image mb-3">
+                    <img src="./img/logo.png" class="img-fluid" style="width: 280px;">
+                </div>
+            </div> 
+
+            <!--direita-->       
+            <div class="col-md-6 direita text-white">
+                <div class="row align-items-center">
+                    <div class="header-text mb-3">
+                        <h2 style="font-weight: 900;">Acesse a plataforma</h2>
+                        <p>Faça login ou registre-se para começar a organizar sua vida financeira ainda hoje!</p>
+                    </div>
+
+            <!-- inicio forms -->
+            <form action="" class="mb-4">
+                <div class="box-form-item">
+                    <label for="" style="font-weight: 900; font-size: 15px; ">E-MAIL</label>
+                    <input type="email" class=" mb-4 form-control form-control-lg bg-light fs-6" placeholder="Ex: seuemail@email.com" required>
+                </div>
+
+                <div class="box-form-item">
+                    <label for="" style="font-weight: 900; font-size: 15px; ">SENHA</label>
+                    <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Ex: 123456!@#$%" required>
+                </div>
+            </form>
+
+            <div class="input-group mb-4 d-flex justify-content-between">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="formCheck">
+                    <label for="formCheck" class="form-check-label text-secondary"><small>Lembre-me</small></label>
+                </div>
+                <div class="forgot">
+                    <small><a href="#">Esqueceu sua senha?</a></small>
+                </div>
+            </div>
+
+            <div class="input-group mb-3" >
+                <article class="btn btn-lg btn-dark w-100 fs-6">
+                    <a class="log" href="#">Entrar</a>
+                </article>
+            </div>
+
+            <p class="text-center" style="font-weight: 900; font-size: 10px;">Ou</p>
+
+            <div class="input-group mb-3">
+                <button class="btn btn-lg btn-light w-100 fs-6"><img src="./img/google.png" style="width:20px" class="me-2"><small>Entrar com Google</small></button>
+            </div>
+
+            <div class="row">
+                <small>Não tem conta? <a href="cadastro.html">Cadastre-se</a></small>
+            </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+}
+
+
+.login-area{
+    width: 930px;
+    background-color: #000000a2;
+}
+
+.direita{
+    padding: 40px 30px 40px 40px;
+}
+
+/* botão enviar / cadastrar */
+.log {
+    color: #ececec;
+    text-decoration: none;
+   
+}
+.log:hover{
+    color: #ececec;
+}
+
+article {
+   border-color: blue;
+}
+.redes {
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+.arredondado2{
+    border-radius: 20px;
+}
+.arredondado{
+    border-radius: 30px;
+}
+
+
+@media only screen and (max-width: 768px){
+
+     .login-area{
+        margin: 0 10px;
+
+     }
+     .esquerda{
+        height: 300px;
+        overflow: hidden;
+     }
+     .direita{
+        padding: 20px;
+     }
+
+}
